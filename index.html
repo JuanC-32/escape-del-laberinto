@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escape del Laberinto</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="board-container">
+      <h1>🎲 Escape del Laberinto</h1>
+      <div class="board" id="board"></div>
+    </div>
+
+    <div class="panel">
+      <div class="status">Posición: <span id="position">1</span>/64</div>
+
+      <div class="dice" id="dice">🎲</div>
+
+      <button id="rollBtn">Lanzar Dado</button>
+
+      <div class="message" id="message">
+        Bienvenido al juego. Tu misión es llegar al final del tablero.
+      </div>
+
+      <div class="legend">
+        <div class="legend-item">
+          <div class="box" style="background:#991b1b"></div>
+          <span>Trampa (-3 casillas)</span>
+        </div>
+
+        <div class="legend-item">
+          <div class="box" style="background:#065f46"></div>
+          <span>Boost (+3 casillas)</span>
+        </div>
+
+        <div class="legend-item">
+          <div class="box" style="background:#4c1d95"></div>
+          <span>Misterio (efecto aleatorio)</span>
+        </div>
+
+        <div class="legend-item">
+          <div class="box" style="background:gold"></div>
+          <span>Meta</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
