@@ -8,10 +8,8 @@ El objetivo del juego es llegar al final del tablero evitando trampas, aprovecha
 
 ## 🚀 Demo
 
-🔗 Agrega aquí el enlace de GitHub Pages:
-
 ```bash
-https://tuusuario.github.io/escape-del-laberinto
+https://github.com/JuanC-32/escape-del-laberinto
 ```
 
 ---
@@ -40,7 +38,10 @@ https://tuusuario.github.io/escape-del-laberinto
 ## 📂 Estructura del proyecto
 
 ```bash
-📁 escape-del-laberinto
+📁 Escape-del-laberinto
+ ├── 📁 assets
+ │    ├── 📁 images
+ │    │    └── Laberinto.png
  ├── index.html
  ├── styles.css
  ├── script.js
@@ -61,7 +62,7 @@ https://tuusuario.github.io/escape-del-laberinto
 
 ## 📸 Capturas
 
-Agrega aquí imágenes o GIFs del juego.
+![Screenshot](assets/images/Laberinto.png)
 
 ---
 
